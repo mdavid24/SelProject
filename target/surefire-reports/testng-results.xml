@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-31T15:38:49 IST" name="Suite" finished-at="2022-05-31T15:39:40 IST" duration-ms="50604">
+    <groups>
+    </groups>
+    <test started-at="2022-05-31T15:38:49 IST" name="Validating Home Page title" finished-at="2022-05-31T15:39:19 IST" duration-ms="30158">
+      <class name="com.Selenium.validateTitle">
+        <test-method is-config="true" signature="Initialize()[pri:0, instance:com.Selenium.validateTitle@2d0566ba]" started-at="2022-05-31T15:38:49 IST" name="Initialize" finished-at="2022-05-31T15:39:18 IST" duration-ms="29075" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialize -->
+        <test-method signature="basepagetitle()[pri:0, instance:com.Selenium.validateTitle@2d0566ba]" started-at="2022-05-31T15:39:18 IST" name="basepagetitle" finished-at="2022-05-31T15:39:18 IST" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basepagetitle -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.Selenium.validateTitle@2d0566ba]" started-at="2022-05-31T15:39:18 IST" name="teardown" finished-at="2022-05-31T15:39:19 IST" duration-ms="741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.Selenium.validateTitle -->
+    </test> <!-- Validating Home Page title -->
+    <test started-at="2022-05-31T15:39:20 IST" name="Login" finished-at="2022-05-31T15:39:40 IST" duration-ms="19415">
+      <class name="com.Selenium.Test1">
+        <test-method is-config="true" signature="pagetitle()[pri:0, instance:com.Selenium.Test1@4acf72b6]" started-at="2022-05-31T15:39:21 IST" name="pagetitle" finished-at="2022-05-31T15:39:27 IST" duration-ms="6033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pagetitle -->
+        <test-method signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.Selenium.Test1@4acf72b6]" started-at="2022-05-31T15:39:27 IST" name="setup" data-provider="logindata" finished-at="2022-05-31T15:39:32 IST" duration-ms="4046" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[david]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dav123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.Selenium.Test1@4acf72b6]" started-at="2022-05-31T15:39:32 IST" name="teardown" finished-at="2022-05-31T15:39:32 IST" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="pagetitle()[pri:0, instance:com.Selenium.Test1@4acf72b6]" started-at="2022-05-31T15:39:32 IST" name="pagetitle" finished-at="2022-05-31T15:39:36 IST" duration-ms="4296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pagetitle -->
+        <test-method signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.Selenium.Test1@4acf72b6]" started-at="2022-05-31T15:39:36 IST" name="setup" data-provider="logindata" finished-at="2022-05-31T15:39:39 IST" duration-ms="3515" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[serah]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ser123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.Selenium.Test1@4acf72b6]" started-at="2022-05-31T15:39:39 IST" name="teardown" finished-at="2022-05-31T15:39:40 IST" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.Selenium.Test1 -->
+    </test> <!-- Login -->
+  </suite> <!-- Suite -->
+</testng-results>

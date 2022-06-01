@@ -1,0 +1,11 @@
+# Created at 2022-05-30T23:24:57.587
+Illegal type at constant pool entry 32 in class com.Selenium.Listeners
+Exception Details:
+  Location:
+    com/Selenium/Listeners.onTestSkipped(Lorg/testng/ITestResult;)V @2: invokespecial
+  Reason:
+    Constant pool index 32 is invalid
+  Bytecode:
+    0000000: 2a2b b700 20b1                         
+
+
